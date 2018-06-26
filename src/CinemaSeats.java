@@ -33,7 +33,7 @@ public class CinemaSeats {
                     else
                         System.out.print(seatStatus.get("" + seatLetter[column-1] + (row-1)) ? "x" : "-");
                 }
-                System.out.print("  ");
+                System.out.print(" ");
             }
             System.out.print("\n");
         }
